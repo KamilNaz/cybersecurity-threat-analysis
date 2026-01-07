@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Active-success)
-![Tests](https://github.com/KamilNaz/cybersecurity-threat-analysis/workflows/Tests/badge.svg)
 
 ## Overview
 
@@ -235,10 +234,12 @@ pytest tests/ -v
 
 ## CI/CD
 
-This project uses GitHub Actions for continuous integration:
-- Runs tests on Python 3.9, 3.10, 3.11, 3.12
-- Validates demo mode execution
-- Generates coverage reports
+A GitHub Actions workflow file (`.github/workflows/tests.yml`) is available locally for:
+- Running tests on Python 3.9, 3.10, 3.11, 3.12
+- Validating demo mode execution
+- Generating coverage reports
+
+*Note: Workflow file requires manual addition to repository due to API token permissions.*
 
 ## Author
 
