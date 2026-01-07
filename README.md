@@ -48,13 +48,11 @@ cybersecurity-threat-analysis/
 ├── tests/
 │   ├── __init__.py
 │   └── test_threat_detector.py # Unit tests
-├── data/
-│   ├── raw/                    # Raw security logs (gitignored)
-│   └── processed/              # Analysis results (gitignored)
-├── .github/
-│   └── workflows/
-│       └── tests.yml           # CI/CD pipeline
-├── main.py                     # CLI entry point
+├── data/                       # Created when running demo
+│   ├── raw/                    # Generated sample logs (gitignored)
+│   └── processed/              # Analysis outputs (gitignored)
+├── .gitignore
+├── main.py                     # CLI entry point - START HERE!
 ├── requirements.txt
 └── README.md
 ```
